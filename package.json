@@ -4,7 +4,8 @@
   "description": "A Puppeteer scraping script to scrape www.karpreal.com",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "node app.test.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,8 @@
   },
   "homepage": "https://github.com/VithuJey/karpreal_scraper#readme",
   "dependencies": {
+    "@google/maps": "^1.1.0",
+    "node-geocoder": "^3.25.0",
     "puppeteer": "^2.0.0"
   }
 }
